@@ -13,5 +13,6 @@ public class Automorphic {
 		 int n = 7;
 		boolean result = checkAutomorphic(n);
 		System.out.println(result);
+		int[] numsarr = new int[4];
 	 }
 }
