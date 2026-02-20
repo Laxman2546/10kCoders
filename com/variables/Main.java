@@ -44,9 +44,16 @@ public class Main {
 			System.out.println(d);
 			System.out.println(f);
 			
-			
-			final  double pi = Math.PI;
-			System.out.println(pi);
+			String name2 = "Lakshman";
+			int age2 = 25;
+			char grade2 = 'A';
+			System.out.println(name2);
+			System.out.println(age2);
+			System.out.println(grade2);
+			final  double area = Math.PI * 25* 25;
+			System.out.println(area);
+			System.out.println(Byte.MIN_VALUE);
+			System.out.println(Byte.MAX_VALUE);
 			
 	}
 
