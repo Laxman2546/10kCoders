@@ -39,7 +39,7 @@ public class ArraysPractice {
 	public static void searchElement(int ele,int[] nums) {
 		for(int i=0;i<nums.length;i++) {
 			if(nums[i] == ele) {				
-				System.out.println("Number found at"+" "+ i +"th position");
+				System.out.println("Number found at"+" "+ i +"position");
 				return;
 			}
 		}
