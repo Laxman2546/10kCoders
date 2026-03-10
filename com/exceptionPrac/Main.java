@@ -26,7 +26,13 @@ class Handling{
 
 public class Main {
 	public static void main(String[] args) {
-		Test.tiMethod(20);
+//		Test.tiMethod(20);
+		try { 
+			int[] nums = null; 
+			nums[0] = 10; 
+			} finally {
+				System.out.println("hello");
+			} 
 	}
 }
 
