@@ -52,6 +52,31 @@ public class OperatorsAssignment {
 		System.out.println("left shift operation: " + (num1 << 1));
 		System.out.println("Right shift operation: " + (num2 >> 1));
 	}
+	public static void compound() {
+		System.out.print("Enter Score: ");
+		int num1 = sc.nextInt();
+		System.out.print("Enter Bonus: ");
+		int num2 = sc.nextInt();
+		
+		System.out.println("Addition " + (num1+=num2));
+		System.out.println("subtraction: " + (num1-=num2));
+		System.out.println("Multiplication: " + (num1*=num2));
+		System.out.println("Division: " + (num1/=num2));
+		System.out.println("Percentage: " + (num1%=num2));
+	}
+	public static void complex() {
+		System.out.print("Enter number1: ");
+		int num1 = sc.nextInt();
+		System.out.print("Enter number2: ");
+		int num2 = sc.nextInt();
+		System.out.print("Enter number3: ");
+		int num3 = sc.nextInt();
+		if((num1>num2)&& (num2 > num3) ||(num1!=num3)) {
+			System.out.println(true);
+		}else {
+			System.out.println(false);
+		}
+	}
 	public static void main(String[] args) {
 		boolean isTrue = true;
 		while(isTrue) {
@@ -67,14 +92,19 @@ public class OperatorsAssignment {
 				break;
 			case 3:
 				bitwise();
+				break;
+			case 4:
+				compound();
+			case 5:
+				complex();
 			case 6:
 				isTrue=false;
+				break;
+			default:
+				System.out.println("Input invallid");
 			}
 		}
 	
-		System.out.print("Enter number1: ");
-				calculate();
-				
 	}
 
 }
